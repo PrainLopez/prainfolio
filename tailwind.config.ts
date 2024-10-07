@@ -9,7 +9,15 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ["Space Grotesk", "Open Sans", "sans-serif"],
+        body: ["Open Sans", "sans-serif"],
+      },
+      width: {
+        framed: "calc(100vw - 100px)",
+      },
+    },
   },
   plugins: [],
 };

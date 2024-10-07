@@ -1,0 +1,8 @@
+:root {
+    --w-content: calc(100vw-100px);
+}
+
+* {
+    box-sizing: border-box;
+    background: whitesmoke;
+}

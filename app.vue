@@ -1,7 +1,9 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-  </div>
+  <header class="border-y border-slate-300">
+    <Navbar />
+  </header>
 </template>
 
 <style>
