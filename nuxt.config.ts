@@ -17,5 +17,5 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/fonts"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/fonts", "@vueuse/nuxt"],
 });
