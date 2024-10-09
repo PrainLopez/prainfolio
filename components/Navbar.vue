@@ -10,7 +10,6 @@ const codeLines = [
   "nvm use stable",
   "tsc --init",
 ];
-const code = codeLines[Math.floor(Math.random() * codeLines.length)];
 </script>
 
 <template>
@@ -31,7 +30,9 @@ const code = codeLines[Math.floor(Math.random() * codeLines.length)];
       v-if="width >= 1440"
       class="absolute -right-2.5 bottom-2 translate-x-full"
     >
-      <TypingCode :code />
+      <TypingCode
+        :code="codeLines[Math.floor(Math.random() * codeLines.length)]"
+      />
     </span>
   </section>
 </template>
