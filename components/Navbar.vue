@@ -10,24 +10,7 @@ const codeLines = [
   "nvm use stable",
   "tsc --init",
 ];
-const code = ref("");
-
-onMounted(async () => {
-  if (width.value >= 1440) {
-    const rand = new Promise<String>((resolve) => {
-      setTimeout(() => {
-        resolve(codeLines[Math.floor(Math.random() * codeLines.length)]);
-      }, 1500);
-    });
-    const codeStr = await rand;
-    for (let ch of codeStr) {
-      await new Promise<void>((resolve) => {
-        setTimeout(resolve, 150);
-      });
-      code.value = code.value + ch;
-    }
-  }
-});
+const code = codeLines[Math.floor(Math.random() * codeLines.length)];
 </script>
 
 <template>
@@ -48,11 +31,7 @@ onMounted(async () => {
       v-if="width >= 1440"
       class="absolute -right-2.5 bottom-2 translate-x-full"
     >
-      <code class="font-code text-sm text-slate-700">{{ code }}</code>
-      <code
-        class="font-code text-sm font-extrabold text-slate-700 animate-textBlink"
-        >_
-      </code>
+      <TypingCode :code />
     </span>
   </section>
 </template>
