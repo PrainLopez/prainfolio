@@ -14,7 +14,7 @@ const codeLines = [
 
 <template>
   <section
-    class="relative w-full sm:w-framed max-w-[1120px] mx-auto px-6 py-4 border-x border-slate-300 flex flex-row items-center justify-between"
+    class="relative w-full sm:w-framed max-w-[1120px] mx-auto border-x border-slate-300 px-6 py-4 flex flex-row items-center justify-between"
   >
     <NuxtLink class="font-display text-3xl font-bold text-slate-950" to="/">
       Prain Lopez
