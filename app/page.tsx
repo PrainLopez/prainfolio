@@ -1,5 +1,6 @@
 import Image from "next/image";
 import TypingCode from "@/components/typingCode";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
