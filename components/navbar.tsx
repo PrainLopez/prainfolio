@@ -5,13 +5,11 @@ import { useWindowSize } from "usehooks-ts";
 import TypingCode from "./typingCode";
 
 const codeLines = [
-  "npx nuxi@latest",
-  "bun next build",
-  "pnpm create vite",
+  "npm create vite",
   "go fmt *.go",
   "git pull -r",
-  "nvm use stable",
-  "tsc --init"
+  "tsc --watch",
+  "spring init"
 ];
 
 function AppendCode() {
@@ -31,19 +29,24 @@ function AppendCode() {
 
 function Navbar() {
   return (
-    <section className="relative w-full sm:w-framed max-w-[1120px] mx-auto border-x border-slate-300 px-6 py-4 flex flex-row items-center justify-between">
-      <Link className="font-display text-3xl font-bold text-slate-950" href="/">
-        Prain Lopez
-      </Link>
-      <ul className="flex flex-row align-middle">
-        <li className="mx-3 text-slate-950">
-          <Link href="/">Home</Link>
-        </li>
-        <li className="mx-3 text-slate-950">Blog</li>
-        <li className="mx-3 text-slate-950">Guestbook</li>
-      </ul>
-      <AppendCode />
-    </section>
+    <nav className="border-y border-slate-300">
+      <section className="relative w-full sm:w-framed max-w-[1120px] mx-auto border-x border-slate-300 px-6 py-4 flex flex-row items-center justify-between">
+        <Link
+          className="font-display text-3xl font-bold text-slate-950"
+          href="/"
+        >
+          Prain Lopez
+        </Link>
+        <ul className="flex flex-row align-middle">
+          <li className="mx-3 text-slate-950">
+            <Link href="/">Home</Link>
+          </li>
+          <li className="mx-3 text-slate-950">Blog</li>
+          <li className="mx-3 text-slate-950">Guestbook</li>
+        </ul>
+        <AppendCode />
+      </section>
+    </nav>
   );
 }
 

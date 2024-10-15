@@ -30,7 +30,7 @@ function TypingCode({ code }: Props) {
       <code className="font-displayCode text-sm text-slate-700">
         {displayCode}
       </code>
-      <code className="font-displayCode text-sm font-extrabold text-slate-700 animate-textBlink">
+      <code className="font-displayCode text-sm font-bold text-slate-700 animate-textBlink">
         _
       </code>
     </span>
