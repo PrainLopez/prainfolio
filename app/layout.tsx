@@ -10,16 +10,16 @@ export const metadata: Metadata = {
 
 const spaceGrotesk = Space_Grotesk({
   weight: ["400", "700"],
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   style: "normal",
-  variable: "--space-grotesk"
+  variable: "--font-space-grotesk"
 });
 
 const spaceMono = Space_Mono({
   weight: ["400", "700"],
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   style: "normal",
-  variable: "--space-mono"
+  variable: "--font-space-mono"
 });
 
 export default function RootLayout({
@@ -34,8 +34,7 @@ export default function RootLayout({
     >
       <body>
         <Navbar />
-
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );

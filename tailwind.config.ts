@@ -13,8 +13,8 @@ const config: Config = {
         foreground: "var(--foreground)"
       },
       fontFamily: {
-        display: ["var(--space-grotesk)", "Open Sans", "sans-serif"],
-        code: ["var(--space-mono)", "IBM Plex Mono", "Courier Prime"]
+        display: ["var(--font-space-grotesk)", "Open Sans", "sans-serif"],
+        mono: ["var(--font-space-mono)", "IBM Plex Mono", "Courier Prime"]
       },
       width: {
         framed: "calc(100vw - 100px)"
