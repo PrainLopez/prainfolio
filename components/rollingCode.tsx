@@ -44,7 +44,7 @@ function RollingCode() {
   }, 7500);
 
   return (
-    <code className="mx-2 px-1 text-5xl font-mono font-medium bg-slate-200/75">
+    <code className="mx-2 px-1 text-5xl font-mono font-medium text-slate-950 bg-slate-200/75">
       {displayText}
     </code>
   );

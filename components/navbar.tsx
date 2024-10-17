@@ -18,7 +18,7 @@ function AppendCode() {
   if (width >= 1440) {
     const code = codeLines[Math.floor(Math.random() * codeLines.length)];
     return (
-      <span className="absolute -right-2.5 bottom-2 translate-x-full">
+      <span className="absolute -right-2.5 bottom-2 translate-x-full text-slate-700">
         <TypingCode code={code} />
       </span>
     );
