@@ -1,4 +1,4 @@
-import RollingCode from "@/components/rollingCode";
+import RollingCode from "@/app/(public)/(index)/rollingCode";
 
 export default function Home() {
   return (

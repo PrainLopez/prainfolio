@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/navbar";
+import Navbar from "@/app/_components/navbar";
 import { Space_Grotesk, Space_Mono } from "next/font/google";
 
 export const metadata: Metadata = {
