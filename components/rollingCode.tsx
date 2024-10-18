@@ -8,7 +8,7 @@ const codes = [
   "....Go....",
   "TypeScript",
   "...Java...",
-  "...HTML..."
+  "...HTML...",
 ];
 
 function* arrayLooper(arr: string[]) {
@@ -29,7 +29,7 @@ function RollingCode() {
         setTimeout(resolve, 75);
       });
       setDisplayText(
-        (prev) => prev.substring(0, i) + "." + prev.substring(i + 1)
+        (prev) => prev.substring(0, i) + "." + prev.substring(i + 1),
       );
     }
     const newText = looper.next().value ?? "";
@@ -38,13 +38,13 @@ function RollingCode() {
         setTimeout(resolve, 100);
       });
       setDisplayText(
-        (prev) => prev.substring(0, i) + newText[i] + prev.substring(i + 1)
+        (prev) => prev.substring(0, i) + newText[i] + prev.substring(i + 1),
       );
     }
   }, 7500);
 
   return (
-    <code className="mx-2 px-1 text-5xl font-mono font-medium text-slate-950 bg-slate-200/75">
+    <code className="mx-2 bg-slate-200/75 px-1 font-mono text-5xl font-medium text-slate-950">
       {displayText}
     </code>
   );

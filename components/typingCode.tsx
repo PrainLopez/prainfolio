@@ -22,7 +22,7 @@ function TypingCode({ code }: Props) {
       setDisplayCode(code.substring(0, index.current + 1));
       index.current++;
     },
-    running && index.current < code.length ? 150 : null
+    running && index.current < code.length ? 150 : null,
   );
 
   return (
@@ -30,7 +30,7 @@ function TypingCode({ code }: Props) {
       <code className="font-displayCode text-sm text-slate-700">
         {displayCode}
       </code>
-      <code className="font-displayCode text-sm font-bold text-slate-700 animate-textBlink">
+      <code className="font-displayCode animate-textBlink text-sm font-bold text-slate-700">
         _
       </code>
     </span>

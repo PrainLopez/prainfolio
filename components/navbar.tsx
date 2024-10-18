@@ -9,7 +9,7 @@ const codeLines = [
   "go fmt *.go",
   "git pull -r",
   "tsc --watch",
-  "spring init"
+  "spring init",
 ];
 
 function AppendCode() {
@@ -30,7 +30,7 @@ function AppendCode() {
 function Navbar() {
   return (
     <nav className="border-y border-slate-300">
-      <section className="relative w-full sm:w-framed max-w-[1120px] mx-auto border-x border-slate-300 px-6 py-4 flex flex-row items-center justify-between">
+      <section className="relative mx-auto flex w-full max-w-[1120px] flex-row items-center justify-between border-x border-slate-300 px-6 py-4 sm:w-framed">
         <Link
           className="font-display text-3xl font-bold text-slate-950"
           href="/"
