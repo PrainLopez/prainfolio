@@ -21,7 +21,7 @@ function* arrayLooper(arr: string[]) {
 const looper = arrayLooper(codes);
 
 function RollingCode() {
-  const [displayText, setDisplayText] = useState("HTML......");
+  const [displayText, setDisplayText] = useState("...HTML...");
 
   useInterval(async () => {
     for (let i = displayText.length - 1; i >= 0; i--) {
