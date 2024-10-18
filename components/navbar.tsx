@@ -32,7 +32,7 @@ function Navbar() {
     <nav className="border-y border-slate-300">
       <section className="relative mx-auto flex w-full max-w-[1120px] flex-row items-center justify-between border-x border-slate-300 px-6 py-4 sm:w-framed">
         <Link
-          className="font-display text-3xl font-bold text-slate-950"
+          className="font-display text-3xl font-medium text-slate-950"
           href="/"
         >
           Prain Lopez

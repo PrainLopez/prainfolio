@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 };
 
 const spaceGrotesk = Space_Grotesk({
-  weight: ["400", "700"],
   subsets: ["latin", "latin-ext"],
   style: "normal",
   variable: "--font-space-grotesk",

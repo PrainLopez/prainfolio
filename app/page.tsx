@@ -9,7 +9,7 @@ export default function Home() {
             Millennium Developer
           </h1>
           <span className="flex flex-row">
-            <p className="font-mono text-5xl font-medium text-slate-950">@</p>
+            <p className="font-mono text-5xl text-slate-950">@</p>
             <RollingCode />
           </span>
           <span className="mt-4 font-sans text-lg text-slate-500">
