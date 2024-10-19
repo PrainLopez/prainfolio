@@ -17,6 +17,12 @@ export default function Home() {
           </span>
         </section>
       </header>
+
+      <article className="border-b border-slate-300">
+        <section className="relative mx-auto flex w-full max-w-[1120px] flex-row items-center justify-between border-x border-slate-300 px-6 py-4 sm:w-framed">
+          <h1>Lorem ipsum</h1>
+        </section>
+      </article>
     </main>
   );
 }
