@@ -3,62 +3,13 @@
 @tailwind utilities;
 
 @layer components {
-  .article {
-    @apply m-2;
-    @apply p-2;
+  .sections-yframe {
+      @apply border-b border-slate-300;
   }
 }
 
 @layer components {
-  .title {
-    @apply font-bold;
-    @apply text-2xl;
-    @apply text-center;
-    @apply pb-4;
-  }
-}
-
-@layer components {
-  .section {
-    @apply pb-2;
-  }
-}
-
-@layer components {
-  .section-title {
-    @apply font-bold;
-    @apply text-xl;
-    @apply pb-2;
-  }
-}
-
-@layer components {
-  .section-content {
-    @apply text-lg;
-    @apply pb-2;
-  }
-}
-
-@layer components {
-  .paragraph-title {
-    @apply font-bold;
-    @apply py-0.5;
-  }
-}
-
-@layer components {
-  .paragraph {
-    @apply py-2;
-  }
-}
-
-@layer components {
-  .code {
-    padding: 0.2em 0.4em;
-    margin: 0;
-    font-size: 85%;
-    @apply bg-[#8f8f8f];
-    @apply dark:bg-[#4f4f4f];
-    border-radius: 3px;
+  .sections-xframe {
+      @apply relative mx-auto w-full max-w-[1120px] border-x border-slate-300 px-6 py-4 sm:w-framed
   }
 }

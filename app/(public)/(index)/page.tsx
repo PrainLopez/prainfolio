@@ -3,8 +3,8 @@ import RollingCode from "@/app/(public)/(index)/rollingCode";
 export default function Home() {
   return (
     <main>
-      <header className="border-b border-slate-300">
-        <section className="relative mx-auto flex w-full max-w-[1120px] flex-col content-start border-x border-slate-300 bg-[url('/svg/homeCurve.svg')] bg-cover bg-[0%_40%] p-[70px_1.5rem_80px] sm:w-framed sm:content-center sm:items-center sm:bg-[length:125vw]">
+      <header className="sections-yframe">
+        <section className="sections-xframe flex flex-col items-center justify-between bg-[url('/svg/homeCurve.svg')] bg-cover bg-[0%_40%] p-[70px_1.5rem_80px] sm:content-center sm:items-center sm:bg-[length:125vw]">
           <h1 className="mb-2 font-display text-5xl font-medium text-slate-950">
             Millennium Developer
           </h1>
@@ -18,8 +18,8 @@ export default function Home() {
         </section>
       </header>
 
-      <article className="border-b border-slate-300">
-        <section className="relative mx-auto flex w-full max-w-[1120px] flex-row items-center justify-between border-x border-slate-300 px-6 py-4 sm:w-framed">
+      <article className="sections-yframe">
+        <section className="sections-xframe">
           <h1>Lorem ipsum</h1>
         </section>
       </article>

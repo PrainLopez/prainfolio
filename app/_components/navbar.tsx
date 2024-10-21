@@ -29,8 +29,8 @@ function AppendCode() {
 
 function Navbar() {
   return (
-    <nav className="border-y border-slate-300">
-      <section className="relative mx-auto flex w-full max-w-[1120px] flex-row items-center justify-between border-x border-slate-300 px-6 py-4 sm:w-framed">
+    <nav id="nav" className="sections-yframe border-y">
+      <section className="sections-xframe flex flex-row items-center justify-between">
         <Link
           className="font-display text-3xl font-medium text-slate-950"
           href="/"
