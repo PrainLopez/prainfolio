@@ -1,0 +1,19 @@
+* {
+  color: black;
+}
+
+@media print {
+
+  #nav section *,
+  #footer section * {
+    opacity: 0;
+  }
+
+  .sections-xframe {
+    width: calc(100vw - 150px);
+  }
+
+  #pageframe {
+    height: calc(100vh - 68px - 68px);
+  }
+}
