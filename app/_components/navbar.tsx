@@ -32,17 +32,17 @@ function Navbar() {
     <nav id="nav" className="sections-yframe border-y">
       <section className="sections-xframe flex flex-row items-center justify-between">
         <Link
-          className="mx-6 font-display text-3xl font-medium text-slate-950"
+          className="mx-6 my-4 font-display text-3xl font-medium text-slate-950"
           href="/"
         >
           Prain Lopez
         </Link>
-        <ul className="mx-3 flex flex-row align-middle">
-          <li className="mx-3 text-slate-950">
+        <ul className="mx-4 my-4 flex flex-row align-middle">
+          <li className="mx-4 text-slate-950">
             <Link href="/">Home</Link>
           </li>
-          <li className="mx-3 text-slate-950">Blog</li>
-          <li className="mx-3 text-slate-950">Guestbook</li>
+          <li className="mx-4 text-slate-950">Blog</li>
+          <li className="mx-4 text-slate-950">Guestbook</li>
         </ul>
         <AppendCode />
       </section>

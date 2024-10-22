@@ -10,19 +10,35 @@
 
 @layer components {
   .sections-xframe {
-    @apply relative mx-auto w-full max-w-[1120px] border-x border-slate-300 py-4 sm:w-framed h-full
+    @apply relative mx-auto w-full max-w-[1120px] h-full border-x border-slate-300 sm:w-framed
   }
 }
 
 @layer components {
   .cont-heading {
-    @apply text-2xl my-2 mx-4 font-semibold;
+    @apply text-2xl py-2 mx-4 font-semibold;
   }
 }
 
 @layer components {
   .cont-content {
-    @apply text-lg mx-4;
+    @apply text-base px-4 py-1;
+    }
+}
+    
+    @layer components {
+      .cont-ulist::before {
+        position: absolute;
+        left: 1.75rem;
+        content: "▪";
+        display: inline-block;
+        padding: 0 0.5rem;
+      }
+    }
+    
+    @layer components {
+      .cont-ulist {
+        @apply ml-8
   }
 }
 @media print {

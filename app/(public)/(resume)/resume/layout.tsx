@@ -5,9 +5,7 @@ export default function ResumeLayout({
 }) {
   return (
     <>
-      <main className="sections-yframe flex-grow">
-        <section className="sections-xframe py-4">{children}</section>
-      </main>
+      <main className="sections-yframe flex-grow">{children}</main>
       <footer id="footer" className="sections-yframe h-[70px]">
         <section className="sections-xframe"></section>
       </footer>
