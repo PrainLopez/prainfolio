@@ -32,12 +32,12 @@ function Navbar() {
     <nav id="nav" className="sections-yframe border-y">
       <section className="sections-xframe flex flex-row items-center justify-between">
         <Link
-          className="font-display text-3xl font-medium text-slate-950"
+          className="mx-6 font-display text-3xl font-medium text-slate-950"
           href="/"
         >
           Prain Lopez
         </Link>
-        <ul className="flex flex-row align-middle">
+        <ul className="mx-3 flex flex-row align-middle">
           <li className="mx-3 text-slate-950">
             <Link href="/">Home</Link>
           </li>

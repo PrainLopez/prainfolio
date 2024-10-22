@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       className={`${spaceGrotesk.variable} ${spaceMono.variable}`}
     >
-      <body>
+      <body id="body" className="flex flex-col">
         <Navbar />
         {children}
       </body>

@@ -10,6 +10,19 @@
 
 @layer components {
   .sections-xframe {
-      @apply relative mx-auto w-full max-w-[1120px] border-x border-slate-300 px-6 py-4 sm:w-framed
+      @apply relative mx-auto w-full max-w-[1120px] border-x border-slate-300 py-4 sm:w-framed h-full
+  }
+}
+
+@media print {
+  #body {
+    height: 100vh;
+  }
+
+  #nav,
+  #footer {
+    section * {
+      opacity: 0;
+    }
   }
 }
