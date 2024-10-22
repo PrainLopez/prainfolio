@@ -4,16 +4,27 @@
 
 @layer components {
   .sections-yframe {
-      @apply border-b border-slate-300;
+    @apply border-b border-slate-300;
   }
 }
 
 @layer components {
   .sections-xframe {
-      @apply relative mx-auto w-full max-w-[1120px] border-x border-slate-300 py-4 sm:w-framed h-full
+    @apply relative mx-auto w-full max-w-[1120px] border-x border-slate-300 py-4 sm:w-framed h-full
   }
 }
 
+@layer components {
+  .cont-heading {
+    @apply text-2xl my-2 mx-4 font-semibold;
+  }
+}
+
+@layer components {
+  .cont-content {
+    @apply text-lg mx-4;
+  }
+}
 @media print {
   #body {
     height: 100vh;
