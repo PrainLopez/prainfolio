@@ -1,5 +1,5 @@
 .heading {
-  @apply text-sky-600;
+  @apply text-sky-600 text-xl;
   padding-left: 7rem;
   position: relative;
 
