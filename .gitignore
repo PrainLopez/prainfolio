@@ -36,6 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 # Personal
-app/(public)/(resume)/resume/zh-cn/*
-app/(public)/(resume)/resume/en-gb/*
 public/private
