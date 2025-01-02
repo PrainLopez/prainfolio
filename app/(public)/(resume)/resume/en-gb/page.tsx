@@ -146,7 +146,7 @@ function EnResume() {
         </h1>
         <p className="cont-content flex flex-row align-baseline">
           <span className="mr-4 flex w-[6rem] justify-end">09/22-01/23</span>
-          <span className="font-semibold">Bachelor's Final Year Project</span>
+          <span className="font-semibold">{`Bachelor's Final Year Project`}</span>
         </p>
         <span className="my-0 ml-[8rem] font-serif text-sm">
           Hand Postures Motion Capture Recognition Machine Learning Model by
