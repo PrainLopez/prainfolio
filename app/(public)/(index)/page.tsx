@@ -18,11 +18,6 @@ export default function Home() {
         </section>
       </header>
 
-      <article className="sections-yframe">
-        <section className="sections-xframe">
-          <h1>Lorem ipsum</h1>
-        </section>
-      </article>
     </main>
   );
 }
