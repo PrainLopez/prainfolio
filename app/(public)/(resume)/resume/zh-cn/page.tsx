@@ -52,7 +52,6 @@ function CnResume() {
           <span className="font-semibold">澳门科技大学</span>
           <span className="my-0 ml-2 font-serif">
             软件技术及其应用 理学学士学位
-            <span className="ml-2 font-sans">(丙级等第/GPA 2.42)</span>
           </span>
         </p>
         <ul className="cont-content">
@@ -81,12 +80,7 @@ function CnResume() {
             className="mr-1 h-6 w-6"
           />
           <span className="font-semibold">谢菲尔德大学</span>
-          <span className="my-0 ml-2 font-serif">
-            Information Systems MSc
-            <em className="ml-2 font-sans text-neutral-400">
-              (预计毕业等第 2.1)
-            </em>
-          </span>
+          <span className="my-0 ml-2 font-serif">Information Systems MSc</span>
         </p>
         <ul className="cont-content">
           <li className="text-xs font-semibold">

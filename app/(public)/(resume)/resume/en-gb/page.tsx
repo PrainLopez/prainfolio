@@ -60,11 +60,10 @@ function EnResume() {
           <span className="font-semibold">
             Macau University of Science and Technology
           </span>
+          <span className="my-0 ml-2 font-serif">
+            Software Technology and Application BS
+          </span>
         </p>
-        <span className="my-0 ml-[9.8rem] font-serif">
-          Software Technology and Application BS
-          <span className="font-sans"> (3.)</span>
-        </span>
         <ul className="cont-content">
           <li className="text-xs font-semibold">
             Relevant Modules:
@@ -95,11 +94,8 @@ function EnResume() {
             className="mr-1 h-6 w-6"
           />
           <span className="font-semibold">University of Sheffield</span>
+          <span className="my-0 ml-2 font-serif">Information Systems MSc</span>
         </p>
-        <span className="my-0 ml-[9.8rem] font-serif">
-          Information Systems MSc
-          <em className="font-sans text-neutral-400"> (Predicted min 2.1)</em>
-        </span>
         <ul className="cont-content">
           <li className="text-xs font-semibold">
             Relevant Modules:
