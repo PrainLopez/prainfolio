@@ -44,73 +44,60 @@ function EnResume() {
           </li>
         </ul>
       </div>
-      <div className="sections-yframe border-dashed">
-        <h1 className={`cont-heading ${styles.heading} py-0`}>
-          Education and qualifications
-        </h1>
-        <p className="cont-content flex flex-row align-baseline">
-          <span className="mr-4 flex w-[6rem] justify-end">09/18-08/23</span>
-          <Image
-            src="/img/MUST.png"
-            height={24}
-            width={24}
-            alt="MUST"
-            className="mr-1 h-6 w-6"
-          />
-          <span className="font-semibold">
-            Macau University of Science and Technology
-          </span>
-          <span className="my-0 ml-2 font-serif">
-            Software Technology and Application BS
-          </span>
-        </p>
-        <ul className="cont-content">
-          <li className="text-xs font-semibold">
-            Relevant Modules:
-            <span className="font-normal">
-              Computer Programming, Calculus For EECS, Data Structures, Linear
-              Algebra, Discrete Mathmatics, Probability and Statistics,
-              Introduction to Web Technology, Object-Oriented Programming,
-              Fundamentals of Computer Graphics, Database Systems, Computer
-              Networks, Network Programming, Operating Systems, Software
-              Engineering, Principles of Compilers, Fundamentals of Artificial
-              Intelligence.
-            </span>
-          </li>
-          <li className="cont-ulist">
-            Huawei ICT Competition Macau SAR 2021-2022 and 2022-2023 (2terms)
-            Final Contest.
-          </li>
-        </ul>
-        <p className="cont-content flex flex-row">
-          <span className="mr-4 flex w-[6rem] justify-end">
-            09/24<em className="text-neutral-400">-09/25</em>
-          </span>
+      <div className="sections-yframe border-dashed p-0.5">
+        <h1 className={`cont-heading ${styles.heading} py-0`}>Education</h1>
+
+        <p className="cont-content my-1 flex flex-row">
+          <span className="mr-4 flex w-[6rem] justify-end">09/24-09/25</span>
           <Image
             src="/img/UoS.png"
-            height={24}
-            width={24}
+            height={64}
+            width={64}
             alt="UoS"
             className="mr-1 h-6 w-6"
           />
           <span className="font-semibold">University of Sheffield</span>
           <span className="my-0 ml-2 font-serif">Information Systems MSc</span>
         </p>
-        <ul className="cont-content">
-          <li className="text-xs font-semibold">
-            Relevant Modules:
-            <span className="font-normal">
-              Information Systems in Organisations, Information Systems
-              Modelling, Information Systems and the Information Society,
-              User-Centered design and Human-Computer Interaction.
+        <p className="cont-content my-1 flex flex-row align-baseline">
+          <span className="mr-4 flex w-[6rem] justify-end">09/18-08/23</span>
+          <Image
+            src="/img/MUST.png"
+            height={64}
+            width={64}
+            alt="MUST"
+            className="mr-1 h-6 w-6"
+          />
+          <div className="flex flex-col">
+            <span className="font-semibold">
+              Macau University of Science and Technology
             </span>
-          </li>
-        </ul>
+            <span className="my-0 font-serif">
+              Software Technology and Application BS
+            </span>
+          </div>
+        </p>
       </div>
-      <div className="sections-yframe border-dashed">
+      <div className="sections-yframe border-dashed p-0.5">
         <h1 className={`cont-heading ${styles.heading} py-0`}>
           Work Experience
         </h1>
+
+        <p className="cont-content flex flex-row align-baseline">
+          <span className="mr-4 flex w-[6rem] justify-end">06/24-08/24</span>
+          <span className="font-semibold">Jingtu Network</span>
+          <span className="ml-2 font-serif">Frontend Engineer</span>
+        </p>
+        <ul className="cont-content text-sm">
+          <li className="cont-ulist">
+            Provided technical guidance to a backend engineering team on Web UI
+            strategies, leading to the adoption of improved solutions.
+          </li>
+          <li className="cont-ulist">
+            Facilitated effective communication of technical ideas and solutions
+            with both technical and non-technical stakeholders.
+          </li>
+        </ul>
         <p className="cont-content flex flex-row align-baseline">
           <span className="mr-4 flex w-[6rem] justify-end">08/23-02/24</span>
           <span className="font-semibold">Red Power micro electronics</span>
@@ -120,45 +107,42 @@ function EnResume() {
         </p>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
-            Developed and maintained a MES system based on Oracle SQL and EJB.
-            Delivered 3 new functional beans at the job. All pass the tests then
-            merged into production.
+            Developed and maintained a Manufacturing Execution System (MES)
+            using Oracle SQL and Enterprise JavaBeans (EJB), contributing three
+            new functional components integrated into production.
           </li>
           <li className="cont-ulist">
-            Participated in testing a new system powered by Spring Data + Vue.
-            Proposed 6 test feedback and bug report to the team. Collaborated
-            with the sector to put new management system into production.
+            Participated in testing and deploying a new system powered by Spring
+            Data and Vue, providing insightful feedback and bug reports to
+            enhance system reliability.
           </li>
           <li className="cont-ulist">
-            Analysed demand from colleagues, conducted development of a web
-            tool. The tool received adoption of the QA sector for automation of
-            routines.
+            Analysed demand from colleagues, develop automation tools for QA
+            processes, enhancing workflow efficiency.
           </li>
         </ul>
       </div>
-      <div className="sections-yframe border-dashed">
+      <div className="sections-yframe border-dashed p-0.5">
         <h1 className={`cont-heading ${styles.heading} py-0`}>
           Project Experience
         </h1>
         <p className="cont-content flex flex-row align-baseline">
           <span className="mr-4 flex w-[6rem] justify-end">09/22-01/23</span>
-          <span className="font-semibold">{`Bachelor's Final Year Project`}</span>
+          <span className="my-0 font-serif font-semibold">
+            Hand Postures Recognition Machine Learning
+          </span>
         </p>
-        <span className="my-0 ml-[8rem] font-serif text-sm">
-          Hand Postures Motion Capture Recognition Machine Learning Model by
-          Scikit-Learn.
-        </span>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
-            Machine Learning Application study based on dataset from Hand
+            Bachelor final year project of ML training on dataset from Hand
             Posture Capture.
           </li>
           <li className="cont-ulist">
             Utilize Sci-kit Learn Python library to process the data and train
-            ML model. Worked with Google Colab service in the process.
+            ML model. Worked on Google Colab in the training process.
           </li>
           <li className="cont-ulist">
-            Compare, fine-tune and test 2 ML algorithems then analyse the
+            Compare and test multiple ML algorithems and analyse their
             performance.
           </li>
         </ul>
@@ -177,8 +161,8 @@ function EnResume() {
         </p>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
-            TypeScript Microservice accounting tool processing natural language
-            with chatGPT.
+            TypeScript Microservice accounting tool designed for easy
+            self-hosting.
           </li>
           <li className="cont-ulist">
             The project started with daily expense accounting, instead of
@@ -186,30 +170,13 @@ function EnResume() {
             input, whilst note app as output.
           </li>
           <li className="cont-ulist">
-            Designed with modular design pattern adapting to APIs. Dockerized
-            and scaleable.
-          </li>
-        </ul>
-        <p className="cont-content flex flex-row align-baseline">
-          <span className="mr-4 flex w-[6rem] justify-end font-serif font-semibold">
-            prainfolio
-          </span>
-          <span className="font-semibold">
+            Integrated with a Vue-based Frontend for basic usage.
             <a
-              className="cont-anchor"
-              href="https://github.com/PrainLopez/prainfolio"
+              className="cont-anchor mx-1"
+              href="https://github.com/PrainLopez/noti-page"
             >
-              github.com/PrainLopez/prainfolio
+              github.com/PrainLopez/noti-page
             </a>
-          </span>
-        </p>
-        <ul className="cont-content text-sm">
-          <li className="cont-ulist">
-            Personal website powered by Next.js(Nuxt previously).
-          </li>
-          <li className="cont-ulist">
-            This project is for exploring the Frontend Meta-framework and
-            ecosystem.
           </li>
         </ul>
         <p className="cont-content flex flex-row align-baseline">
@@ -238,24 +205,50 @@ function EnResume() {
           </li>
         </ul>
       </div>
-      <div className="sections-yframe border-dashed">
+      <div className="sections-yframe border-dashed p-0.5">
         <h1 className={`cont-heading ${styles.heading} py-0`}>
           Professional Skills
         </h1>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
-            Intermediate knowledge to JavaScript, Basic experience to
-            TypeScript. Priliminary developing experience to the React and Vue.
-            Acknowledge the Frontend ecosystem and TC39 updates.
+            <strong>JavaScript: </strong>Intermediate level knowledge to ES6+
+            and TypeScript.
           </li>
           <li className="cont-ulist">
-            Basic level develop experience to following programming language: C,
-            C++, Java, Python, Go, SQL and Rust.
+            <strong>Frontend Frameworks: </strong>Entry level development
+            experience. Can build full-stact architechure with meta frameworks
+            like Next and Nuxt.
           </li>
           <li className="cont-ulist">
-            Efficient with Git, Visual Studio Code.
+            <strong>Developer toolchain: </strong>Experienced with Git, VScode,
+            JetBrains IDEs, and frontend CI/CD workflows using Vercel and
+            Netlify.
+          </li>
+          <li className="cont-ulist">
+            <strong>Database: </strong>Proficient with Oracle SQL, have hands-on
+            experience with MySQL and PostgreSQL. Have experience with Drizzle
+            ORM and Hibernate.
+          </li>
+          <li className="cont-ulist">
+            <strong>Other: </strong>Have intermediate experience with Java,
+            Python and Go progamming.
           </li>
         </ul>
+        <div className="cont-content flex flex-row py-1 align-baseline">
+          <span className="mx-2">
+            <strong>Certificates: </strong>
+          </span>
+          <Image
+            src="/img/IBMMQDevEss_L2.png"
+            height={64}
+            width={64}
+            alt="IBM MQ Dev Essentials"
+            className="mr-1 h-6 w-6"
+          />
+          <span className="font-serif font-semibold">
+            IBM MQ Dev Essentials
+          </span>
+        </div>
       </div>
     </section>
   );
