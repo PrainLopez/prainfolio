@@ -17,7 +17,7 @@ function EnResume() {
             <span className="ml-1 font-semibold text-neutral-400">
               Mobile:{" "}
             </span>
-            777 6700863{" "}
+            +44 777 6700863{" "}
             <span className="ml-1 font-semibold text-neutral-400">Email: </span>
             <a className="cont-anchor" href="mailto:qym200042@gmail.com">
               qym200042@gmail.com
@@ -45,7 +45,9 @@ function EnResume() {
         </ul>
       </div>
       <div className="sections-yframe border-dashed p-0.5">
-        <h1 className={`cont-heading ${styles.heading} py-0`}>Education</h1>
+        <h1 className={`cont-heading ${styles.heading} py-0`}>
+          Education & Certificates
+        </h1>
 
         <p className="cont-content my-1 flex flex-row">
           <span className="mr-4 flex w-[6rem] justify-end">09/24-09/25</span>
@@ -59,6 +61,15 @@ function EnResume() {
           <span className="font-semibold">University of Sheffield</span>
           <span className="my-0 ml-2 font-serif">Information Systems MSc</span>
         </p>
+        <ul className="cont-content">
+          <li className="text-xs font-semibold">
+            {"Related Courses: "}
+            <span className="font-normal">
+              Information Systems Project Management, Information Systems
+              Modeling
+            </span>
+          </li>
+        </ul>
         <p className="cont-content my-1 flex flex-row align-baseline">
           <span className="mr-4 flex w-[6rem] justify-end">09/18-08/23</span>
           <Image
@@ -77,7 +88,20 @@ function EnResume() {
             </span>
           </div>
         </p>
+        <div className="cont-content flex flex-row py-1 align-baseline">
+          <Image
+            src="/img/IBMMQDevEss_L2.png"
+            height={64}
+            width={64}
+            alt="IBM MQ Dev Essentials"
+            className="mr-1 h-6 w-6"
+          />
+          <span className="font-serif font-semibold">
+            IBM MQ Dev Essentials
+          </span>
+        </div>
       </div>
+
       <div className="sections-yframe border-dashed p-0.5">
         <h1 className={`cont-heading ${styles.heading} py-0`}>
           Work Experience
@@ -90,19 +114,19 @@ function EnResume() {
         </p>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
-            Provided technical guidance to a backend engineering team on Web UI
-            strategies, leading to the adoption of improved solutions.
+            Leading the setup process of the IM product, including the CI/CD
+            pipeline strcturing and layout structuring.
           </li>
           <li className="cont-ulist">
-            Facilitated effective communication of technical ideas and solutions
-            with both technical and non-technical stakeholders.
+            Collaborated with the backend team to strcture the IM product and
+            ported the SDK for frontend usage.
           </li>
         </ul>
         <p className="cont-content flex flex-row align-baseline">
           <span className="mr-4 flex w-[6rem] justify-end">08/23-02/24</span>
           <span className="font-semibold">Red Power micro electronics</span>
           <span className="ml-2 font-serif">
-            Junior Software Engineer (Internship)
+            Junior Software Engineer (Placement)
           </span>
         </p>
         <ul className="cont-content text-sm">
@@ -211,44 +235,26 @@ function EnResume() {
         </h1>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
-            <strong>JavaScript: </strong>Intermediate level knowledge to ES6+
-            and TypeScript.
+            <strong>Programming Language: </strong>Have intermediate experience
+            with JavaScript, TypeScript, Java and Python. Have entry level
+            experience with C#, Go and Rust.
           </li>
           <li className="cont-ulist">
-            <strong>Frontend Frameworks: </strong>Entry level development
-            experience. Can build full-stact architechure with meta frameworks
-            like Next and Nuxt.
+            <strong>Database: </strong>
+            Production experience with Oracle SQL Database, have hands-on
+            experience with MySQL and PostgreSQL. Have experience with Several
+            ORM tools.
           </li>
           <li className="cont-ulist">
-            <strong>Developer toolchain: </strong>Experienced with Git, VScode,
-            JetBrains IDEs, and frontend CI/CD workflows using Vercel and
-            Netlify.
+            <strong>Frontend: </strong>
+            Proficient with React and Vue frameworks.
           </li>
           <li className="cont-ulist">
-            <strong>Database: </strong>Proficient with Oracle SQL, have hands-on
-            experience with MySQL and PostgreSQL. Have experience with Drizzle
-            ORM and Hibernate.
-          </li>
-          <li className="cont-ulist">
-            <strong>Other: </strong>Have intermediate experience with Java,
-            Python and Go progamming.
+            <strong>Developer toolchain: </strong>
+            Experienced with Git, VScode, JetBrains IDEs, and frontend CI/CD
+            pipline building.
           </li>
         </ul>
-        <div className="cont-content flex flex-row py-1 align-baseline">
-          <span className="mx-2">
-            <strong>Certificates: </strong>
-          </span>
-          <Image
-            src="/img/IBMMQDevEss_L2.png"
-            height={64}
-            width={64}
-            alt="IBM MQ Dev Essentials"
-            className="mr-1 h-6 w-6"
-          />
-          <span className="font-serif font-semibold">
-            IBM MQ Dev Essentials
-          </span>
-        </div>
       </div>
     </section>
   );
