@@ -172,6 +172,31 @@ function EnResume() {
         </ul>
         <p className="cont-content flex flex-row align-baseline">
           <span className="mr-4 flex w-[6rem] justify-end font-serif font-semibold">
+            csv-filter
+          </span>
+          <span className="font-semibold">
+            <a
+              className="cont-anchor"
+              href="https://github.com/PrainLopez/csv-filter"
+            >
+              github.com/PrainLopez/csv-filter
+            </a>
+          </span>
+        </p>
+        <ul className="cont-content text-sm">
+          <li className="cont-ulist">
+            Web tool parsing csv file and filtering lines according to ruleset.
+          </li>
+          <li className="cont-ulist">
+            QA sector colleagues suggested to automate data checking. The
+            project was to serve the demand.
+          </li>
+          <li className="cont-ulist">
+            Developed and delivered within 2 weeks.
+          </li>
+        </ul>
+        <p className="cont-content flex flex-row align-baseline">
+          <span className="mr-4 flex w-[6rem] justify-end font-serif font-semibold">
             noticount
           </span>
           <span className="font-semibold">
@@ -203,31 +228,6 @@ function EnResume() {
             </a>
           </li>
         </ul>
-        <p className="cont-content flex flex-row align-baseline">
-          <span className="mr-4 flex w-[6rem] justify-end font-serif font-semibold">
-            csv-filter
-          </span>
-          <span className="font-semibold">
-            <a
-              className="cont-anchor"
-              href="https://github.com/PrainLopez/csv-filter"
-            >
-              github.com/PrainLopez/csv-filter
-            </a>
-          </span>
-        </p>
-        <ul className="cont-content text-sm">
-          <li className="cont-ulist">
-            Web tool parsing csv file and filtering lines according to ruleset.
-          </li>
-          <li className="cont-ulist">
-            QA sector colleagues suggested to automate data checking. The
-            project was to serve the demand.
-          </li>
-          <li className="cont-ulist">
-            Developed and delivered within 2 weeks.
-          </li>
-        </ul>
       </div>
       <div className="sections-yframe border-dashed p-0.5">
         <h1 className={`cont-heading ${styles.heading} py-0`}>
@@ -235,24 +235,25 @@ function EnResume() {
         </h1>
         <ul className="cont-content text-sm">
           <li className="cont-ulist">
+            <strong>Frontend: </strong>
+            Proficient with React and Vue frameworks. Deep understanding of
+            JavaScript and its ecosystem. Have project experience with Next.js.
+          </li>
+          <li className="cont-ulist">
             <strong>Programming Language: </strong>Have intermediate experience
             with JavaScript, TypeScript, Java and Python. Have entry level
             experience with C#, Go and Rust.
+          </li>
+          <li className="cont-ulist">
+            <strong>Developer toolchain: </strong>
+            Experienced with Git, VScode, JetBrains IDEs, and frontend CI/CD
+            pipline building.
           </li>
           <li className="cont-ulist">
             <strong>Database: </strong>
             Production experience with Oracle SQL Database, have hands-on
             experience with MySQL and PostgreSQL. Have experience with Several
             ORM tools.
-          </li>
-          <li className="cont-ulist">
-            <strong>Frontend: </strong>
-            Proficient with React and Vue frameworks.
-          </li>
-          <li className="cont-ulist">
-            <strong>Developer toolchain: </strong>
-            Experienced with Git, VScode, JetBrains IDEs, and frontend CI/CD
-            pipline building.
           </li>
         </ul>
       </div>
