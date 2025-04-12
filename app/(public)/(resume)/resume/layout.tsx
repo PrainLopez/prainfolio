@@ -5,7 +5,7 @@ export default function ResumeLayout({
 }) {
   return (
     <>
-      <main id="resume" className="sections-yframe flex-grow">
+      <main id="resume" className="flex-grow">
         {children}
       </main>
       <footer id="footer" className="sections-yframe h-[70px]">
