@@ -4,13 +4,13 @@ export default function ResumeLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
-      <main id="resume" className="flex-grow">
+    <div className="flex h-screen flex-col">
+      <main id="resume" className="">
         {children}
       </main>
-      <footer id="footer" className="sections-yframe h-[70px]">
-        <section className="sections-xframe"></section>
+      <footer id="footer" className="sections-yframe grow">
+        <section className="sections-xframe grow"></section>
       </footer>
-    </>
+    </div>
   );
 }

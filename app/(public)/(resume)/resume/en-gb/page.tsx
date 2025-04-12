@@ -49,13 +49,15 @@ function EnResume() {
         </section>
       </section>
       <section className="sections-yframe">
-        <section className="sections-xframe p-0.5">
+        <section className="sections-xframe p-1">
           <h1 className={`cont-heading ${styles.heading} py-0`}>
             Education & Certificates
           </h1>
 
           <p className="cont-content my-1 flex flex-row">
-            <span className="mr-4 flex w-[6rem] justify-end">09/24-09/25</span>
+            <span className="mr-4 flex w-[6rem] justify-center">
+              09/24-09/25
+            </span>
             <Image
               src="/img/UoS.png"
               height={64}
@@ -68,17 +70,17 @@ function EnResume() {
               Information Systems MSc
             </span>
           </p>
-          <ul className="cont-content">
-            <li className="text-xs font-semibold">
-              {"Related Courses: "}
-              <span className="font-normal">
-                Information Systems Project Management, Information Systems
-                Modeling
-              </span>
-            </li>
-          </ul>
+          <p className="ml-1 text-xs font-semibold">
+            {"Related Courses: "}
+            <span className="font-normal">
+              Information Systems Project Management, Information Systems
+              Modeling
+            </span>
+          </p>
           <p className="cont-content my-1 flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-end">09/18-08/23</span>
+            <span className="mr-4 flex w-[6rem] justify-center">
+              09/18-08/23
+            </span>
             <Image
               src="/img/MUST.png"
               height={64}
@@ -95,37 +97,37 @@ function EnResume() {
               </span>
             </div>
           </p>
-          <ul className="cont-content">
-            <li className="text-xs font-semibold">
-              {"Related Courses: "}
-              <span className="font-normal">
-                Data Structure, Software Engineering, Computer Network,
-                Operating System, Web Programming
-              </span>
-            </li>
-          </ul>
-          <div className="cont-content flex flex-row py-1 align-baseline">
+          <p className="ml-1 text-xs font-semibold">
+            {"Related Courses: "}
+            <span className="font-normal">
+              Data Structure, Software Engineering, Computer Network, Operating
+              System, Web Programming
+            </span>
+          </p>
+          <p className="cont-content flex flex-row gap-2 p-1 align-baseline">
             <Image
               src="/img/IBMMQDevEss_L2.png"
               height={64}
               width={64}
               alt="IBM MQ Dev Essentials"
-              className="mr-1 h-6 w-6"
+              className="h-6 w-6"
             />
             <span className="font-serif font-semibold">
               IBM MQ Dev Essentials
             </span>
-          </div>
+          </p>
         </section>
       </section>
       <section className="sections-yframe">
-        <section className="sections-xframe p-0.5">
+        <section className="sections-xframe p-1">
           <h1 className={`cont-heading ${styles.heading} py-0`}>
             Work Experience
           </h1>
 
           <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-end">06/24-08/24</span>
+            <span className="mr-4 flex w-[6rem] justify-center">
+              06/24-08/24
+            </span>
             <span className="font-semibold">Jingtu Network</span>
             <span className="ml-2 font-serif">Frontend Engineer</span>
           </p>
@@ -141,7 +143,9 @@ function EnResume() {
             </li>
           </ul>
           <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-end">08/23-02/24</span>
+            <span className="mr-4 flex w-[6rem] justify-center">
+              08/23-02/24
+            </span>
             <span className="font-semibold">Red Power micro electronics</span>
             <span className="ml-2 font-serif">
               Junior Software Engineer (Placement)
@@ -166,12 +170,14 @@ function EnResume() {
         </section>
       </section>
       <section className="sections-yframe">
-        <section className="sections-xframe p-0.5">
+        <section className="sections-xframe p-1">
           <h1 className={`cont-heading ${styles.heading} py-0`}>
             Project Experience
           </h1>
           <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-end">09/22-01/23</span>
+            <span className="mr-4 flex w-[6rem] justify-center">
+              09/22-01/23
+            </span>
             <span className="my-0 font-serif font-semibold">
               Hand Postures Recognition Machine Learning
             </span>
@@ -190,7 +196,7 @@ function EnResume() {
             </li>
           </ul>
           <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-end font-serif font-semibold">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               csv-filter
             </span>
             <span className="font-semibold">
@@ -216,7 +222,7 @@ function EnResume() {
             </li>
           </ul>
           <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-end font-serif font-semibold">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               noticount
             </span>
             <span className="font-semibold">
@@ -251,7 +257,7 @@ function EnResume() {
         </section>
       </section>
       <section className="sections-yframe">
-        <section className="sections-xframe p-0.5">
+        <section className="sections-xframe p-1">
           <h1 className={`cont-heading ${styles.heading} py-0`}>
             Professional Skills
           </h1>
