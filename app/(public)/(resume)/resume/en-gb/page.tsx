@@ -12,7 +12,7 @@ function EnResume() {
               <span className="ml-1 font-semibold text-neutral-400">
                 Address:{" "}
               </span>
-              Westhill Hall, 61 Eldon Street, Sheffield, S1 4NJ, UK
+              Flat A10-E, Steel City, 60 Garden St, Sheffield, S1 4UE, UK
             </li>
             <li>
               <span className="ml-1 font-semibold text-neutral-400">
@@ -77,6 +77,28 @@ function EnResume() {
               Modeling
             </span>
           </p>
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="my-0 ml-4 font-serif font-semibold">
+              Degree Project: HumanEval-Perturbed - LLM Evaluation on Code
+              Generation and Token Bias
+            </span>
+          </p>
+          <ul className="cont-content ml-2 text-sm">
+            <li className="cont-ulist">
+              An Exploary study following <code>GSM-Symbolic</code> to validate
+              genuine reasoning of LLM in code genreation task.
+            </li>
+            <li className="cont-ulist">
+              The study introduced prompt mutation on top of{" "}
+              <code>HumanEval</code> to test LLM robustness against logical
+              traps.
+            </li>
+            <li className="cont-ulist">
+              The study found statistical significance to believe that LLM
+              suffers from token bias in code genration. While test lacks
+              statistical power due to limited sample size.
+            </li>
+          </ul>
           <p className="cont-content my-1 flex flex-row align-baseline">
             <span className="mr-4 flex w-[6rem] justify-center">
               09/18-08/23
@@ -88,14 +110,14 @@ function EnResume() {
               alt="MUST"
               className="mr-1 h-6 w-6"
             />
-            <div className="flex flex-col">
+            <span className="flex flex-row gap-2">
               <span className="font-semibold">
                 Macau University of Science and Technology
               </span>
               <span className="my-0 font-serif">
                 Software Technology and Application BS
               </span>
-            </div>
+            </span>
           </p>
           <p className="ml-1 text-xs font-semibold">
             {"Related Courses: "}
@@ -104,6 +126,24 @@ function EnResume() {
               System, Web Programming
             </span>
           </p>
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="my-0 ml-4 font-serif font-semibold">
+              Degree Project: Hand Postures Recognition Machine Learning
+            </span>
+          </p>
+          <ul className="cont-content ml-2 text-sm">
+            <li className="cont-ulist">
+              Machine Learning / Data mining project on dataset from Hand
+              Posture Capture.
+            </li>
+            <li className="cont-ulist">
+              Utilized Sci-kit Learn to process the data and train ML model.
+            </li>
+            <li className="cont-ulist">
+              Compared and tested multiple ML algorithems and analyseed their
+              performance.
+            </li>
+          </ul>
           <p className="cont-content flex flex-row gap-2 p-1 align-baseline">
             <Image
               src="/img/IBMMQDevEss_L2.png"
@@ -129,17 +169,22 @@ function EnResume() {
               06/24-08/24
             </span>
             <span className="font-semibold">Jingtu Network</span>
-            <span className="ml-2 font-serif">Frontend Engineer</span>
+            <span className="ml-2 font-serif">
+              Frontend Engineer (Contracted)
+            </span>
           </p>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
-              Leading a team of 4 to develop a new IM product, focusing on
-              frontend development using React (React Router) and TypeScript.
+              Leading a team of 4 to develop a new chatroom product, focusing on
+              frontend powered by React Router SPA and TypeScript.
+            </li>
+            <li className="cont-ulist">
+              Setup CI/CD pipeline for the frontend team repository, including
+              commit hook and automated linting check.
             </li>
             <li className="cont-ulist">
               Collaborated with the backend team to strcture the API interface,
-              providing consulting suggetion on the data controller model and
-              API design.
+              providing consulting suggetion on their RESTful API design.
             </li>
           </ul>
           <p className="cont-content flex flex-row align-baseline">
@@ -175,24 +220,54 @@ function EnResume() {
             Project Experience
           </h1>
           <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-center">
-              09/22-01/23
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
+              iForgeHack
             </span>
-            <span className="my-0 font-serif font-semibold">
-              Hand Postures Recognition Machine Learning
+            <span className="font-semibold">
+              <a
+                className="cont-anchor"
+                href="https://github.com/MTipuric/iForgeHackathonBestGroup"
+              >
+                github.com/MTipuric/iForgeHackathonBestGroup
+              </a>
             </span>
           </p>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
-              Bachelor final year project of ML training on dataset from Hand
-              Posture Capture.
+              University of Sheffield iForge Hackathon (MLH event) Entry: A
+              drawing bot following user prompts to create art using Gemini.
             </li>
             <li className="cont-ulist">
-              Utilize Sci-kit Learn to process the data and train ML model.
+              The program call Gemini API to generate coordinates for the
+              drawing. The coordinates are then processed into motor commands
+              for a drawing robot.
             </li>
             <li className="cont-ulist">
-              Compare and test multiple ML algorithems and analyse their
-              performance.
+              Participated as programmer in a team of 4, responsible for Gemini
+              API integration.
+            </li>
+          </ul>
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
+              ShefJam
+            </span>
+            <span className="font-semibold">
+              <a
+                className="cont-anchor"
+                href="https://github.com/MichaelEE-DocSteel/ShefJam11"
+              >
+                github.com/MichaelEE-DocSteel/ShefJam11
+              </a>
+            </span>
+          </p>
+          <ul className="cont-content text-sm">
+            <li className="cont-ulist">
+              SheffJam GameJam Entry: A 2D platformer-action game built with
+              Unity.
+            </li>
+            <li className="cont-ulist">
+              Participated as a programmer in a team of 4, responsible for core
+              gameplay mechanics and code implementation.
             </li>
           </ul>
           <p className="cont-content flex flex-row align-baseline">
@@ -214,11 +289,11 @@ function EnResume() {
               ruleset.
             </li>
             <li className="cont-ulist">
-              QA sector colleagues suggested to automate data checking. The
-              project was to serve the demand.
+              Developed and delivered within 2 weeks for QA sector colleagues
+              suggested to automate data checking.
             </li>
             <li className="cont-ulist">
-              Developed and delivered within 2 weeks.
+              Powered by jQuery and Vite, deployes on Cloudflare Pages.
             </li>
           </ul>
           <p className="cont-content flex flex-row align-baseline">
@@ -276,13 +351,13 @@ function EnResume() {
             <li className="cont-ulist">
               <strong>Developer toolchain: </strong>
               Experienced with Git, VScode, JetBrains IDEs, and frontend CI/CD
-              pipline building.
+              pipline building. Have personal use experience with cloud
+              deployment on platforms such as AWS and Azure.
             </li>
             <li className="cont-ulist">
               <strong>Database: </strong>
-              Production experience with Oracle SQL Database, have hands-on
-              experience with MySQL and PostgreSQL. Have experience with Several
-              ORM tools.
+              Basic experience with Oracle SQL Database, MySQL and PostgreSQL.
+              Have hands-on experience with Drizzle ORM.
             </li>
           </ul>
         </section>
