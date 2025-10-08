@@ -10,12 +10,6 @@ function EnResume() {
           <ul className="mx-6 flex flex-col py-1 text-sm">
             <li>
               <span className="ml-1 font-semibold text-neutral-400">
-                Address:{" "}
-              </span>
-              Flat A10-E, Steel City, 60 Garden St, Sheffield, S1 4UE, UK
-            </li>
-            <li>
-              <span className="ml-1 font-semibold text-neutral-400">
                 Mobile:{" "}
               </span>
               +44 777 6700863{" "}
@@ -70,7 +64,7 @@ function EnResume() {
               Information Systems MSc
             </span>
           </p>
-          <p className="ml-1 text-xs font-semibold">
+          <p className="ml-1 text-sm font-semibold">
             {"Related Courses: "}
             <span className="font-normal">
               Information Systems Project Management, Information Systems
@@ -119,7 +113,7 @@ function EnResume() {
               </span>
             </span>
           </p>
-          <p className="ml-1 text-xs font-semibold">
+          <p className="ml-1 text-sm font-semibold">
             {"Related Courses: "}
             <span className="font-normal">
               Data Structure, Software Engineering, Computer Network, Operating
@@ -144,18 +138,6 @@ function EnResume() {
               performance.
             </li>
           </ul>
-          <p className="cont-content flex flex-row gap-2 p-1 align-baseline">
-            <Image
-              src="/img/IBMMQDevEss_L2.png"
-              height={64}
-              width={64}
-              alt="IBM MQ Dev Essentials"
-              className="h-6 w-6"
-            />
-            <span className="font-serif font-semibold">
-              IBM MQ Dev Essentials
-            </span>
-          </p>
         </section>
       </section>
       <section className="sections-yframe">
@@ -173,9 +155,12 @@ function EnResume() {
               Frontend Engineer (Contracted)
             </span>
           </p>
+          <code className="text-sm">
+            [GitHub Actions, React Router, TypeScript, Vite, DaisyUI, ESlint]
+          </code>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
-              Leading a team of 4 to develop a new chatroom product, focusing on
+              Led a team of 4 to develop a new chatroom product, focusing on
               frontend powered by React Router SPA and TypeScript.
             </li>
             <li className="cont-ulist">
@@ -196,6 +181,9 @@ function EnResume() {
               Junior Software Engineer (Placement)
             </span>
           </p>
+          <code className="text-sm">
+            [Java, Oracle SQL, Spring Data, Vue, jQuery, Vite]
+          </code>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
               Developed and maintained a Manufacturing Execution System (MES)
@@ -219,8 +207,8 @@ function EnResume() {
           <h1 className={`cont-heading ${styles.heading} py-0`}>
             Project Experience
           </h1>
-          <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row content-baseline gap-2 align-baseline">
+            <span className="flex w-[6rem] justify-center font-serif font-semibold">
               iForgeHack
             </span>
             <span className="font-semibold">
@@ -231,6 +219,7 @@ function EnResume() {
                 github.com/MTipuric/iForgeHackathonBestGroup
               </a>
             </span>
+            <code className="text-sm">[Unity, C#]</code>
           </p>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
@@ -247,8 +236,8 @@ function EnResume() {
               API integration.
             </li>
           </ul>
-          <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row content-baseline gap-2 align-baseline">
+            <span className="flex w-[6rem] justify-center font-serif font-semibold">
               ShefJam
             </span>
             <span className="font-semibold">
@@ -259,6 +248,7 @@ function EnResume() {
                 github.com/MichaelEE-DocSteel/ShefJam11
               </a>
             </span>
+            <code className="text-sm">[Python, Gemini API, GCP, Arduino]</code>
           </p>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
@@ -270,8 +260,8 @@ function EnResume() {
               gameplay mechanics and code implementation.
             </li>
           </ul>
-          <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row content-baseline gap-2 align-baseline">
+            <span className="flex w-[6rem] justify-center font-serif font-semibold">
               csv-filter
             </span>
             <span className="font-semibold">
@@ -282,6 +272,9 @@ function EnResume() {
                 github.com/PrainLopez/csv-filter
               </a>
             </span>
+            <code className="text-sm">
+              [JavaScript, jQuery, Vite, Cloudflare Pages]
+            </code>
           </p>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
@@ -296,8 +289,8 @@ function EnResume() {
               Powered by jQuery and Vite, deployes on Cloudflare Pages.
             </li>
           </ul>
-          <p className="cont-content flex flex-row align-baseline">
-            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row content-baseline gap-2 align-baseline">
+            <span className="flex w-[6rem] justify-center font-serif font-semibold">
               noticount
             </span>
             <span className="font-semibold">
@@ -309,6 +302,10 @@ function EnResume() {
               </a>
             </span>
           </p>
+          <code className="text-sm">
+            [TypeScript, Node.js, Vue, Next.js, Cloudflare Workers, Express.js,
+            PosgreSQL, Hono.js]
+          </code>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
               TypeScript Microservice accounting tool designed for easy
@@ -339,25 +336,23 @@ function EnResume() {
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
               <strong>Frontend: </strong>
-              Proficient with React and Vue frameworks. Deep understanding of
-              JavaScript and its ecosystem. Have project experience with
-              Next.js.
+              React, Vue, HTML, CSS, JavaScript, TypeScript, jQuery, Node.js
             </li>
             <li className="cont-ulist">
-              <strong>Programming Language: </strong>Have intermediate
-              experience with JavaScript, TypeScript, Java and Python. Have
-              entry level experience with C#, Go and Rust.
+              <strong>Programming Language: </strong>JavaScript, TypeScript,
+              Java, Python, C, C#, Go.
             </li>
             <li className="cont-ulist">
               <strong>Developer toolchain: </strong>
-              Experienced with Git, VScode, JetBrains IDEs, and frontend CI/CD
-              pipline building. Have personal use experience with cloud
-              deployment on platforms such as AWS and Azure.
+              Git, VScode, Intellij IDEA, PyCharm, GoLand, Docker
+            </li>
+            <li className="cont-ulist">
+              <strong>Cloud: </strong>
+              GCP, AWS, Cloudflare, GitHub Actions
             </li>
             <li className="cont-ulist">
               <strong>Database: </strong>
-              Basic experience with Oracle SQL Database, MySQL and PostgreSQL.
-              Have hands-on experience with Drizzle ORM.
+              Oracle SQL, PosgreSQL, Redis, MongoDB
             </li>
           </ul>
         </section>
