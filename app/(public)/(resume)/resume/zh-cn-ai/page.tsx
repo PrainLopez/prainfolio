@@ -4,7 +4,7 @@ function CnResume() {
   return (
     <>
       <section className="sections-yframe">
-        <section className="sections-xframe flex flex-row items-center justify-between px-3">
+        <section className="sections-xframe flex flex-row items-center justify-between p-3">
           <h1 className="mx-6 py-4 text-3xl font-medium">钱雨萌</h1>
           <ul className="mx-6 flex flex-col py-1 text-sm">
             <li>
@@ -43,9 +43,10 @@ function CnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-2">
-          <h1 className={`cont-heading `}>教育经历</h1>
-          <p className="cont-content my-2 flex flex-row align-baseline gap-2">
-            <span className="flex w-[6rem] justify-center">
+          <h1 className={`cont-heading py-0`}>教育经历</h1>
+
+          <p className="cont-content my-2 flex flex-row">
+            <span className="mr-4 flex w-[6rem] justify-center">
               24.09-26.01
             </span>
             <Image
@@ -53,10 +54,10 @@ function CnResume() {
               height={64}
               width={64}
               alt="UoS"
-              className="h-6 w-6"
+              className="mr-1 h-6 w-6"
             />
             <span className="font-semibold">谢菲尔德大学</span>
-            <span className=" font-serif">
+            <span className="my-0 ml-2 font-serif">
               Information Systems MSc（信息系统 硕士）
             </span>
           </p>
@@ -67,28 +68,28 @@ function CnResume() {
               Modeling
             </span>
           </p> */}
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="px-2 font-serif font-semibold">
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="my-0 ml-4 font-serif font-semibold">
               学位论文：HumanEval-Perturbed - LLM Evaluation on Code Generation
               and Token Bias
             </span>
           </p>
-          <ul className="cont-content text-sm">
+          <ul className="cont-content ml-2 text-sm">
             <li className="cont-ulist">
-              本研究基于苹果机器学习研究院的 <code>GSM-Symbolic</code>{" "}
-              论文，探索性研究了大语言模型的词元偏见效应在代码生成场景中的影响。
+              基于苹果机器学习研究院的 <code>GSM-Symbolic</code>{" "}
+              论文，探索性研究了 LLM 在代码生成任务中的真实推理能力。
             </li>
             <li className="cont-ulist">
-              实验受到 <code>GSM-Symbolic</code> 启发，在 <code>HumanEval</code> 的基础上引入了不涉及逻辑的提示词变换，
-              以验证模型在代码生成场景中是否存在词元偏见现象。
+              该研究在 <code>HumanEval</code> 的基础上引入了提示变换，以测试 LLM
+              对逻辑陷阱的鲁棒性。
             </li>
             <li className="cont-ulist">
               该研究从统计学角度验证了 LLM 在代码生成中存在 token
               偏见。然而本实验的检验力受到样本大小的限制。
             </li>
           </ul>
-          <p className="cont-content my-2 flex flex-row align-baseline gap-2">
-            <span className="flex w-[6rem] justify-center">
+          <p className="cont-content my-2 flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center">
               18.09-23.08
             </span>
             <Image
@@ -96,11 +97,11 @@ function CnResume() {
               height={64}
               width={64}
               alt="MUST"
-              className="h-6 w-6"
+              className="mr-1 h-6 w-6"
             />
             <span className="flex flex-row gap-2">
               <span className="font-semibold">澳门科技大学</span>
-              <span className=" font-serif">软件技术与应用学士</span>
+              <span className="my-0 font-serif">软件技术与应用学士</span>
             </span>
           </p>
           {/* <p className="ml-1 text-xs font-semibold">
@@ -110,12 +111,12 @@ function CnResume() {
               System, Web Programming
             </span>
           </p> */}
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="px-2 font-serif font-semibold">
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="my-0 ml-4 font-serif font-semibold">
               毕业设计：基于 Scikit-Learn 库和手势识别数据集的机器学习模型
             </span>
           </p>
-          <ul className="cont-content text-sm">
+          <ul className="cont-content ml-2 text-sm">
             <li className="cont-ulist">
               围绕手势识别数据集进行机器学习/数据挖掘项目。
             </li>
@@ -142,14 +143,14 @@ function CnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-2">
-          <h1 className={`cont-heading `}>工作经历</h1>
+          <h1 className={`cont-heading py-0`}>工作经历</h1>
 
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center">
+          <p className="cont-content flex flex-row pt-2 align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center">
               24.06-24.08
             </span>
             <span className="font-semibold">镜兔网络</span>
-            <span className="font-serif">前端工程师</span>
+            <span className="ml-2 font-serif">前端工程师</span>
           </p>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
@@ -164,12 +165,12 @@ function CnResume() {
               对接方案建议。
             </li>
           </ul>
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center">
+          <p className="cont-content flex flex-row pt-2 align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center">
               23.08-24.02
             </span>
             <span className="font-semibold">安徽瑞迪微电子有限公司</span>
-            <span className="font-serif">
+            <span className="ml-2 font-serif">
               软件开发实习生（制造执行系统 MES）
             </span>
           </p>
@@ -191,9 +192,9 @@ function CnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-2">
-          <h1 className={`cont-heading `}>项目经验</h1>
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center font-serif font-semibold">
+          <h1 className={`cont-heading py-0`}>项目经验</h1>
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               iForgeHack
             </span>
             <span className="font-semibold">
@@ -219,8 +220,8 @@ function CnResume() {
             </li>
             <li className="cont-ulist">团队作品获得了最佳 Gemini 创意奖。</li>
           </ul>
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               YuroAI
             </span>
             <span className="font-semibold">
@@ -239,8 +240,8 @@ function CnResume() {
               本项目作为AI主播的Demo实现，探索了AI技术在直播市场的潜力
             </li>
           </ul>
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               ShAiPoster
             </span>
             <span className="font-semibold">
@@ -263,8 +264,8 @@ function CnResume() {
               Demo 内容详见 <a className="cont-anchor mx-1" href="https://vibeapps.dev/s/shaiposter">ShAIposter | VibeApps</a>
             </li>
           </ul>
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               csv-filter
             </span>
             <span className="font-semibold">
@@ -287,8 +288,8 @@ function CnResume() {
               使用 jQuery 和 Vite 开发，镜像版本部署在 Cloudflare Pages 上。
             </li>
           </ul>
-          <p className="cont-content flex flex-row gap-2 align-baseline">
-            <span className="flex w-[6rem] justify-center font-serif font-semibold">
+          <p className="cont-content flex flex-row align-baseline">
+            <span className="mr-4 flex w-[6rem] justify-center font-serif font-semibold">
               noticount
             </span>
             <span className="font-semibold">
@@ -316,7 +317,7 @@ function CnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-2">
-          <h1 className={`cont-heading `}>职业技能</h1>
+          <h1 className={`cont-heading py-0`}>职业技能</h1>
           <ul className="cont-content text-sm">
             <li className="cont-ulist">
               <strong>前端：</strong>

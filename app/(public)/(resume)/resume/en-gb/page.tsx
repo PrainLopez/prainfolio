@@ -1,4 +1,3 @@
-import styles from "../resume.module.css";
 import Image from "next/image";
 
 function EnResume() {
@@ -44,7 +43,7 @@ function EnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-1">
-          <h1 className={`cont-heading ${styles.heading} py-0`}>
+          <h1 className={`cont-heading  py-0`}>
             Education & Certificates
           </h1>
 
@@ -142,7 +141,7 @@ function EnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-1">
-          <h1 className={`cont-heading ${styles.heading} py-0`}>
+          <h1 className={`cont-heading  py-0`}>
             Work Experience
           </h1>
 
@@ -204,7 +203,7 @@ function EnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-1">
-          <h1 className={`cont-heading ${styles.heading} py-0`}>
+          <h1 className={`cont-heading  py-0`}>
             Project Experience
           </h1>
           <p className="cont-content flex flex-row content-baseline gap-2 align-baseline">
@@ -330,7 +329,7 @@ function EnResume() {
       </section>
       <section className="sections-yframe">
         <section className="sections-xframe p-1">
-          <h1 className={`cont-heading ${styles.heading} py-0`}>
+          <h1 className={`cont-heading  py-0`}>
             Professional Skills
           </h1>
           <ul className="cont-content text-sm">

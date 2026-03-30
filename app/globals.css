@@ -33,16 +33,9 @@
 }
 @layer components {
   .cont-ulist::before {
-    position: absolute;
-    left: 1rem;
+    width: 1em;
     content: "▪";
     display: inline-block;
-  }
-}
-    
-@layer components {
-  .cont-ulist {
-    @apply ml-6
   }
 }
 
@@ -51,19 +44,12 @@
     height: 100vh;
   }
   
-  #nav,
+  /* #nav,
   #footer {
     min-height: 35px;
     height: auto;
     section * {
       display: none;
     }
-  }
-}
-
-@media print {
-  .sections-xframe {
-    max-width: none;
-    width: calc(100vw - 70px);
-  }
+  } */
 }

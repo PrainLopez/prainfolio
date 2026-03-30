@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../globals.css";
+import "@/app/globals.css";
 import Navbar from "@/app/_components/navbar";
 import { Space_Grotesk, Space_Mono } from "next/font/google";
 
@@ -32,7 +32,9 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${spaceMono.variable}`}
     >
       <body id="body" className="flex flex-col">
-        <Navbar />
+        <header>
+          <Navbar />
+        </header>
         {children}
       </body>
     </html>

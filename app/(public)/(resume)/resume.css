@@ -1,0 +1,52 @@
+.cont-heading {
+  @apply text-xl text-sky-600;
+  padding-left: 7rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    height: 0.25rem;
+    width: 6rem;
+    top: calc(50% - 0.125rem);
+    left: 0;
+    @apply bg-sky-600;
+    display: block;
+    position: absolute;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  .sections-xframe {
+    max-width: none;
+    width: calc(100vw - 12.7mm);
+  }
+
+  main {
+    display: table-row;
+  }
+
+  header,
+  footer {
+    display: table-header-group;
+    width: 100%;
+  }
+
+  header > section.sections-yframe,
+  footer > section.sections-yframe {
+    display: block;
+    height: 6.35mm;
+  }
+
+  footer {
+    display: table-footer-group;
+  }
+
+  body#body {
+    display: table;
+    width: 100vw;
+  }
+}
